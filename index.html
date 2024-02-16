@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelite!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Etch-a-Sketch!</h1>
+    <div class="main">
+        <div class="buttons">
+            <button id="multicolor" onclick=rainbowModeEnabled()>Rainbow!</button>
+            <button id="clear" onclick=clearGrid()>Clear all</button>
+            <button id="eraser" onclick=eraserModeEnabled()>Erase</button>
+            <button id="pixels" onclick=promptUser()>Pixel size!</button>
+            <input id="palette" type="color">
+        </div>
+    
+        <div class="grid"></div>
+    </div>
+</body>
+</html>
