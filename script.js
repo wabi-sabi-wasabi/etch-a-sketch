@@ -1,4 +1,4 @@
-window.onload = createGrid(16);
+createGrid(16);
 
 function createGrid(num){
     //Clear the grid
@@ -25,7 +25,6 @@ function createGrid(num){
        document.querySelector(".grid").appendChild(pixel);      
     }
 }
-
 
 function clearGrid(){
     let pixels = document.querySelectorAll(".pixel")
